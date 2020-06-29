@@ -1,0 +1,12 @@
+<dashboard>
+  <label>embedded</label>
+  <row>
+    <panel>
+      <html>
+        <body>
+          <iframe src="http://sdhlab.com:5500/leaflet/Leaflet.KoreanTmsProviders/splunk/splunk.html" scrolling="no" width="1200" height="2500" ></iframe>
+        </body>
+      </html>
+    </panel>
+  </row>
+</dashboard>

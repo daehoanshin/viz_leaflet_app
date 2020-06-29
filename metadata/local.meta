@@ -1,0 +1,49 @@
+[views/embedded_panel]
+version = 8.0.3
+modtime = 1591284189.063463000
+
+[views/division_panel]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 8.0.3
+modtime = 1591286086.773912000
+
+[views/division_panel_equals]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 8.0.3
+modtime = 1591286105.140728000
+
+[views/test]
+owner = admin
+version = 8.0.3
+modtime = 1593406409.606523000
+
+[views/test1]
+owner = admin
+version = 8.0.3
+modtime = 1593451777.861210000
+
+[views/embedded]
+owner = admin
+version = 8.0.3
+modtime = 1593415162.584205000
+
+[app/ui]
+version = 8.0.3
+modtime = 1593442751.359642000
+
+[app/launcher]
+version = 8.0.3
+modtime = 1593442751.360840000
+
+[app/package/check_for_updates]
+version = 8.0.3
+modtime = 1593442751.361276000
+
+[lookups/makers.csv]
+owner = admin
+version = 8.0.3
+modtime = 1593448002.476966000

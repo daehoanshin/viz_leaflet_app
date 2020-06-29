@@ -1,0 +1,25 @@
+<dashboard>
+  <label>test</label>
+  <row>
+    <panel>
+      <!--<html>
+        <body>
+          <div id="mapid" type="viz_leaflet_app.leaflet"></div>
+        </body>
+      </html>-->
+      <viz  id="mapid" type="viz_leaflet_app.leaflet">
+        <search>
+          <query>index="_audit" 
+| head 10</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="height">612</option>
+        <!--<option name="viz_leaflet_app.leaflet.bindId">#mapid</option>-->
+        <option name="viz_leaflet_app.leaflet.mainColor">#f7bc38</option>
+        <option name="viz_leaflet_app.leaflet.maxValue">100</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>
